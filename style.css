@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+}
+.maindiv{
+    width: 100%;
+    height: auto;
+
+    /* border: 1px solid black; */
+}
+.navbar{
+    width: 
+    100%;
+    height: 100px;
+
+    background-color: aliceblue;
+    position:relative ;
+}
+.zainnav{
+
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: lightseagreen;
+}
+.ul1{
+    position: absolute;
+    list-style: none;
+    left: 450px;
+    top: 40px;
+
+}
+.li1{
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    left: 50px;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    font-size: 18px;
+    color:  lightseagreen;
+}
+.firstimg{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("hero.jpg");
+    background-size: 100% 100%;
+}
+.onpic1{
+    position: relative;
+    width: 350px;
+    height: 100px;
+    border: 2px solid white;
+    left: 450px;
+    top: 150px;
+}
+.zainimg{
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    top: 30px;
+}
+.img1para{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    top: 285px;
+}
+
+.button1{
+position: absolute;
+background-color: darkcyan;
+height: 50px;
+width: 130px;
+
+top: 390px;
+left: 460px;
+border: 1px solid white;
+color: white;
+
+}
+.button2{
+    position: absolute;
+    height: 50px;
+    width: 170px;
+    background-color: darkslateblue;
+    top: 390px;
+    left: 620px;
+    border: 1px solid white;
+    color: white;
+}
+.button1:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+.div3{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid white; */
+    background-color: whitesmoke;
+}
+.service{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 70px;
+
+}
+.servicepara{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top:110px ;
+    font-size: 23px;
+}
+.img2{
+    position: absolute;
+    top: 230px;
+    left: 270px;
+}
+.img3{
+    position: absolute;
+    top: 230px;
+    left: 600px;
+}
+.img4{
+    position: absolute;
+    top: 230px;
+    left: 950px;
+}
+.design{
+    position: absolute;
+    top: 320px;
+    left: 210px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.wordpress{
+    position: absolute;
+    top: 320px;
+    font-size: 18px;
+    font-family: sans-serif;
+    left: 500px;
+}
+.title{
+    position: absolute;
+    top: 320px;
+    font-size: 18px;
+    font-family: sans-serif;
+    left: 870px;
+}
+.servic2epara{
+    position: absolute;
+    top:380px ;
+    font-family: sans-serif;
+    left: 160px;
+}
+.servic3epara{
+    position: absolute;
+    top:380px ;
+    font-family: sans-serif;
+    left: 500px;
+}
+.servic4epara{
+    position: absolute;
+    top:380px ;
+    font-family: sans-serif;
+    left: 880px;
+}
+.button3{
+    position: absolute;
+    width: 100px;
+
+    height: 40px;
+    top:450px ;
+    background-color: cadetblue;
+    left: 230px;
+}
+.button4{
+    position: absolute;
+    width: 100px;
+
+    height: 40px;
+    top:450px ;
+    background-color: cadetblue;
+    left: 560px;
+}
+.button5{
+    position: absolute;
+    width: 100px;
+
+    height: 40px;
+    top:450px ;
+    background-color: cadetblue;
+    left: 930px;
+}
+.div4{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: floralwhite;
+}
+.div4subdiv{
+    position: absolute;
+    height: 400px;
+    width: 90%;
+    border: 1px solid black;
+    top: 50px;
+    left: 60px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("hero.jpg");
+    background-size: 100% 100%;
+}
+.subpara{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color:white;
+
+    font-size: 23px;
+    font-weight: bold;
+    top: 170px;
+}
+.div5{
+    position: relative;
+    width: 100%;
+    height: 550px;
+
+    background-color: whitesmoke ;
+}
+.postheading{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+
+    top: 40px;
+}
+.postpara{
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    text-align: center;
+    font-size: 22px;
+}
+.img5{
+    position: absolute;
+    width: 320px;
+    height: 140px;
+    top: 160px;
+    left: 100px;
+}
+.img6{
+    position: absolute;
+    width: 320px;
+    height: 140px;
+    top: 160px;
+    left: 470px;
+}
+.img7{
+    position: absolute;
+    width: 320px;
+    height: 140px;
+    top: 160px;
+    left: 840px;
+}
+.postheading2{
+    position: absolute;
+    top: 320px;
+    left: 100px;
+    font-size: 15px;
+}
+.postheading3{
+    position: absolute;
+    top: 320px;
+    font-size: 15px;
+    left: 465px;
+}
+.postheading4{
+    position: absolute;
+    top: 320px;
+    font-size: 15px;
+    left: 840px;
+}
+.postpara1{
+    position: absolute;
+    top:350px ;
+    left: 100px;
+}
+.postpara2{
+    position: absolute;
+    top:350px ;
+    left: 465px;
+}
+.postpara3{
+    position: absolute;
+    top:350px ;
+    left: 845px;
+}
+.button6{
+    position: absolute;
+width: 100px;
+height: 40px;
+top: 470px;
+left: 100px;
+background-color: teal;
+}
+.button7{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 470px;
+    left: 465px;
+    background-color: teal;
+}
+.button8{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 470px;
+    left: 840px;
+    background-color: teal;
+}
+.div6{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: ghostwhite;
+}
+.div5subdiv{
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    border: 1px solid black;
+    top: 40px;
+    left: 60px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("hero.jpg");
+    background-size: 100% 100%;
+}
+.div5heading{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    top: 150px;
+}
+.div7{
+    position: relative;
+    width: 100%;
+    height: 550px;
+
+    background-color: whitesmoke;
+}
+.contactheading{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 60px;
+
+}
+.contactpara{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 110px;
+    font-size: 22px;
+}
+.input1{
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    border: 1px solid black;
+    top: 180px;
+    left: 300px;
+}
+.input2{
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    border: 1px solid black;
+    top: 180px;
+    left: 700px;
+}
+.input3{
+    position: absolute;
+    height: 150px;
+    width: 750px;
+    border: 1px solid black;
+    top: 230px;
+    left: 300px;
+}
+.button9{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    background-color: darkcyan;
+    left: 300px;
+    top: 430px;
+}
+.div8{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: floralwhite;
+}
+.div8subdiv{
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    border: 1px solid black;
+    top: 50px;
+    left: 60px;
+    background-image: linear-gradient(rgba(197, 219, 218, 0.800),rgba(197,219,218,0.800)),url("hero.jpg");
+background-size: 100%100%;
+}
+.div8heading{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 150px;
+}
+.div9{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-color: darkgrey;
+}
+.div9heading{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-size: 25px;
+    color: royalblue;
+}
+.div9heading2{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    font-size: 25px;
+    color: royalblue;
+}
+.div9heading3{
+    position: absolute;
+    top: 100px;
+    left: 900px;
+    font-size: 25px;
+    color: royalblue;
+}
+.div9para1{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-size: 25px;
+    color: royalblue;
+    font-size: 19px;
+}
+.div9para2{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    font-size: 25px;
+    color: royalblue;
+    font-size: 19px;
+}
+.div9para3{
+    position: absolute;
+    top: 150px;
+    left: 900px;
+    font-size: 25px;
+    color: royalblue;
+    font-size: 19px;
+}
+
+
+
+
+
